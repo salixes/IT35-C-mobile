@@ -5,12 +5,10 @@ interface ContainerProps { }
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-    <div id="container">
-      <>
-      <IonButton>Default</IonButton>
-      <IonButton disabled={true}>Disabled</IonButton>
+     <>
+      <IonButton expand="block">Block</IonButton>
+      <IonButton expand="full">Full</IonButton>
     </>
-    </div>
   );
 };
 
