@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 
@@ -7,7 +7,11 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>HI THIS IS MY MOBILE APP YEHEY!</IonTitle>
+          
+          <IonButtons slot="start">
+          <IonMenuButton>  </IonMenuButton>
+          </IonButtons>
+          <IonTitle>Hi Love!</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
