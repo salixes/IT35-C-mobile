@@ -5,9 +5,10 @@ import { homeOutline, informationOutline, settingsOutline } from 'ionicons/icons
 import Page1 from './page1';
 import Page2 from './page2';
 
+const Menu: React.FC =()=>{
 
   const path = [
-    {name:'Home', url:"/app/home",icon:homeOutline},
+    {name: ' Home', url:"/app/home", icon:homeOutline},
     {name:'Page1', url:"/app/page1",icon:settingsOutline},
     {name:'Page2', url:"/app/page2",icon:informationOutline}
   ]
