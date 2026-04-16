@@ -14,6 +14,7 @@ const Templates: React.FC = () => {
             <IonContent className="ion-padding">
                 <h1>Templates</h1>
             </IonContent>
+            
             </IonPage>
     );
 };
